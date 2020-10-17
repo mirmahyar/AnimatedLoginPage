@@ -5,7 +5,7 @@ html, body, body *{
   padding: 0;
   color: inherit;
   background-color: inherit;
-  border: 2px solid orange;
+  /*border: 2px solid orange;*/
 
 }
 
@@ -32,6 +32,7 @@ body{
   /*overflow: hidden;*/
   color: #ffffff;
   background: linear-gradient(180deg, rgba(60,60,179,1) 20%, rgba(31,219,221,0.4458158263305322) 48%);
+  
 }
 
 .Nav-buttons{
@@ -40,6 +41,7 @@ body{
   padding-top: 40px;
   opacity: 1;
   margin-bottom: 3em;
+  text-align: center;
 }
 
 button{
@@ -56,9 +58,7 @@ button{
 button.active{
   padding-bottom: 10px;
   border-bottom: solid 5px #1059ff;
-  border-top: solid 5px #1059ff;
-  border-left: solid 5px #1059ff;
-  border-right: solid 5px #1059ff;
+ 
 }
 
 .forgot-panel{
@@ -68,7 +68,9 @@ margin-left: auto;
 margin-right: auto;
 text-align: center;
 padding-top: 24px;
-border-top: solid 24px rgba(255,255,255,0.3);
+border-top:  24px rgba(255,255,255,0.3);
+color: gray;
+margin-top: -260px;
 }
 
 .form-group input{
@@ -105,4 +107,13 @@ input.submit{
   left: 500px;
   top: -230px;
   position: relative;
+}
+
+form, .forgot-panel{
+  position: relative;
+  transition: all .5s ease;
+}
+
+#loginBtn, #registerBtn{
+  transition:all .5s ease;
 }
