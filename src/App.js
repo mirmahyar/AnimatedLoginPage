@@ -16,12 +16,12 @@ function App() {
     opacity: registrationFormStatus ? 1 : 0
   })
   const loginBtnProps = useSpring({
-    borderBottom: registrationFormStatus ? "solid 0px transparent" : "solid 2px #1059FF",
+    borderBottom: registrationFormStatus ? "solid 0px transparent" : "solid 2px #0fffe3",
     fontWeight: registrationFormStatus ? "100" : "700",
     fontSize: registrationFormStatus ? "medium" : "x-large"
   })
   const registerBtnProps = useSpring({
-    borderBottom: registrationFormStatus ? "solid 2px #1059FF" : "solid 0px transparent",
+    borderBottom: registrationFormStatus ? "solid 2px #0fffe3" : "solid 0px transparent",
     fontSize: registrationFormStatus ? "x-large" : "medium"
   })
 
@@ -51,7 +51,7 @@ function App() {
       </div>
 
       <div className="forgot-panel">
-        <a href='#'> forgot passoword?</a>
+        <a href='#'> Forgot Your Passoword?</a>
       </div>
 
     </div>
@@ -61,8 +61,8 @@ function App() {
 const LoginForm = () => {
   return (
     <react.Fragment>
-      <label for='username'>USERNAME</label>
-      <input type='text' id='username' />
+      <label className='label' for='username'>USERNAME</label>
+      <input type='text' id='username' placeholder='i.e Jack123' />
       <label for='password'>PASSWORD</label>
       <input type='text' id='password' />
       <input type="submit" value='submit' className='submit' />
