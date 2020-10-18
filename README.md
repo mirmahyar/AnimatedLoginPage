@@ -6,3 +6,5 @@ While watching a youtube video about REACT-SPRING, creating a similar page, I to
 And this project was started ! 
 
 Still can be enhanced in many ways, so I will gradually work on it in the future. 
+
+By the way, this REACT-SPRING library is awesome ! I will use it more in the future ! 
